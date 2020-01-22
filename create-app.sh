@@ -185,11 +185,11 @@ function main {
 
 
 
-  # if [[ "$4" == "offline"  && "$2" == "yarn" ]]; then
-  #   $2 install --offline
-  # else
-  #   $2 install
-  # fi   
+  if [[ "$4" == "offline"  && "$2" == "yarn" ]]; then
+    $2 install --offline
+  else
+    $2 install
+  fi   
 }
 
 if [ "$1" == "-h" ]; then
