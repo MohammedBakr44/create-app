@@ -1,7 +1,11 @@
 # create app
 _couldn't find a better name_.
 
-This is a CLI app that help you create a simple boilerplate web apps. without wasting time going through environoment setup. 
+This is a CLI app that help you create a simple boilerplate web apps. without wasting time going through environoment setup.
+
+# General setup
+
+This CLI uses the 7-1 technique in sass, maybe I'll add it to pug too, but now it's just for sass. And it's my own project structure.
 
 # gulp
 
